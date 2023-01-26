@@ -1,67 +1,84 @@
 header{
-    width: 100%;
-    border: solid 1px;
-    margin-bottom: 2rem;
-    margin-top:  2rem;
+  width: 100%;
+  border: solid 1px;
+  margin-bottom: 2rem;
+  margin-top:  2rem;
 }
 
 header h1{
-    text-align: left;
+  text-align: left;
 
-    padding: 1rem 1rem 1rem 2rem;
-    font-size: 35px;
+  padding: 1rem 1rem 1rem 2rem;
+  font-size: 35px;
 }
 
 .tab {
-    overflow: hidden;
-    border: 1px solid #25dfe6;
-    background-color: #25dfe6;
-  }
+  overflow: hidden;
+  border: 1px solid #25dfe6;
+  background-color: #25dfe6;
+}
 
-  
-  /* Stiler for knappene */
-  
-  button{
-    border: none;
-    padding: 1.5rem;
-    font-size: 1.2rem;
-    transition: 0.4s;
-  }
-  
-  .tab button {
-    background-color: #25dfe6;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: 0.4s;
-    width: 100%;
-  }
-  
-  button:focus {
-    background-color: #25dfe6;
-    border-color: #25dfe6;
-    color: #fff;
-  }
 
-  /* stiler for info-boksen */
-  div.tabcontent{
-    border-top: solid 1rem #25dfe6;
-    border-left: solid 1px;
-    border-bottom: solid 1px;
-    border-right: solid 1px;
-    padding: 6px 12px;
-    display: block;
-    transition: ease-in-out 0.7s;
-  }
-  
+/* Stiler for knappene */
 
-  /* sentrering av nettsiden */
-  body {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    overflow: hidden;
-    position: relative;
-  }
+button{
+  border: none;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  transition: 0.4s;
+}
+
+.tab button {
+  background-color: #25dfe6;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s;
+  width: 100%;
+}
+
+button:focus {
+  background-color: #25dfe6;
+  border-color: #25dfe6;
+  color: #fff;
+}
+
+/* stiler for info-boksen */
+div.tabcontent{
+  border-top: solid 1rem #25dfe6;
+  border-left: solid 1px;
+  border-bottom: solid 1px;
+  border-right: solid 1px;
+  padding: 6px 12px;
+  display: block;
+  transition: ease-in-out 0.7s;
+}
+
+
+/* sentrering av nettsiden */
+body {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
+
+
+/*
+ALLE KILDER{
+  -w2schools. How To - Tabs:
+   https://www.w3schools.com/howto/howto_js_tabs.asp
+
+  -uin23ak2_resource_layout_prestegaard
+  https://github.com/Jadeigo/uin23ak2_resource_layout_prestegaard
   
+  -w2schools. HTML DOM Element appendChild()
+  https://www.w3schools.com/jsref/met_node_appendchild.asp
+
+  -HTML DOM Document createElement()
+  https://www.w3schools.com/jsref/met_document_createelement.asp
+  
+}
+*/
