@@ -94,10 +94,9 @@ const resources = [
         ]
     },
 ]
-  /*  
+    /*  
       Funksjon som bestemmer oppsettet av det som skal stå i div med id="tabcontent"
-      -uin23ak2_resource_layout_prestegaard
-      https://github.com/Jadeigo/uin23ak2_resource_layout_prestegaard*/
+    */
   
   function Printkilde(resource) {
     document.getElementById("tabcontent").innerHTML = "";
@@ -115,7 +114,12 @@ const resources = [
     tekst.textContent = resource.text;
 
     const kildeListe = document.createElement("ul");
-    
+   
+    /*  Struktur som bestemmer hvordan kildene skal printes med tekst og innebygd URL
+        -uin23ak2_resource_layout_prestegaard
+        https://github.com/Jadeigo/uin23ak2_resource_layout_prestegaard 
+    */
+
     resource.sources.forEach(source => {
         const kildeMaterial = document.createElement("li");
 
@@ -129,11 +133,11 @@ const resources = [
     
     //Skriver ut ellementene fra resources i div-en "tabcontent" i formatet av funksjonen "printKilde"
 
-    document.getElementById("tabcontent").appendChild(kategoriTitel);
+    document.querySelector(".tabcontent").appendChild(kategoriTitel);
 
-    document.getElementById("tabcontent").appendChild(tekst);
+    document.querySelector(".tabcontent").appendChild(tekst);
     
-    document.getElementById("tabcontent").appendChild(kildeListe)
+    document.querySelector(".tabcontent").appendChild(kildeListe)
 }
 
 
